@@ -1,0 +1,312 @@
+*{
+	padding: 0px; margin: 0px;
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+
+/*----Header---*/
+.wrapper{
+	width: 1000px;
+	margin: 0 auto;
+	/*background: grey;*/
+}
+
+h1{
+	float: left; /*supaya 1 baris dengan grup-form*/
+	font-size: 40px;
+	padding-top: 10px;
+}
+
+.content-header{
+	background: #3a5795;
+	color: white;
+	padding: 15px 0;
+	border-bottom: 1px solid black;
+}
+
+.clearfix:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.content-header form{
+	float: right;
+}
+
+.content-header label{
+	font-size: 14px;
+	padding-bottom: 2px;
+}
+
+.content-header input{
+	margin-bottom: 3px;
+	padding: 2px;
+}
+
+.content-header label,
+.content-header input{
+	display: block;
+}
+
+.content-header input[type="checkbox"]{ /*semua type checkbox yang berada di content-header*/
+	display: inline-block; /*hanya tipe checkbox saja yang diubah displaynya menjadi inline block*/
+}
+
+.content-header input[type="submit"]{ /*semua type submit yang berada di content-header*/
+	background: #5972a8;
+	color: white;
+	padding: 3px 5px;
+	font-weight: bold;
+	margin-top: 17px; 
+	/*border-color: top right bottom left;*/
+	border-color: #2f477a #29447e #1a356e;
+}
+
+.group-form{
+	float: left; /*supaya group form menjadi 1 baris*/
+	margin-left: 10px;
+}
+
+.group-form a{ /*semua a yang berada di group form*/
+	text-decoration: none;
+	color: #9daccb;
+	font-size: 14px;
+}
+
+.group-form #forgot:hover{
+	text-decoration: underline;
+}
+/*---end---*/
+
+
+/*---content middle---*/
+.content-middle{
+	background:#edf0f5;
+}
+
+.content-middle .middle-left{
+	float: left;
+	width: 50%;
+	margin-right: 3%;
+}
+
+.content-middle .middle-right{
+	float: left;
+	width: 47%;
+}
+
+
+h2{
+	color: rgba(0,0,0,0.7);
+	margin-top: 50px;
+	margin-bottom: 40px;
+}
+
+.content-middle ul li{
+	color: rgba(0,0,0,0.7);
+	list-style: none;
+	font-weight: bold;
+	margin-bottom: 40px;
+}
+
+.content-middle ul li span{
+	font-weight: normal;
+	margin-left: 10px;
+	color: grey;
+}
+
+h3{
+	color: rgba(0,0,0,0.7);
+	margin-top: 15px;
+	font-size: 35px;
+}
+
+.middle-right p:nth-child(2){
+	color: rgba(0,0,0,0.7);
+	margin-bottom: 10px;
+	font-size: 17px;
+}
+
+
+.middle-right input{
+	border: 1px solid grey;
+	border-radius: 5px;
+	padding: 7px;
+	margin-bottom: 10px;
+	width: 100%;
+	font-size: 15px;
+}
+
+.middle-right input.inline{
+	float: left;
+	width: 49%;
+	margin-top: 8px;
+}
+
+.middle-right input.inline-first{
+	margin-right: 2%;
+}
+
+.middle-right .birthday{
+	border-radius: 5px;
+	padding: 5px;
+	width: 80px;
+	margin: 5px 0;
+}
+
+#info_birthday, #info_register{
+	font-size: 12px;
+	color: #3a5795;
+	margin-bottom: 20px;
+}
+
+#info_birthday{
+	float: right;
+	margin-right: 60px;
+	margin-top: 6px;
+	text-decoration: none;
+}
+
+#info_birthday:hover{
+	text-decoration: underline;
+}
+
+.middle-right input[type="radio"]{
+	width: 22px;
+	margin: 20px 0;
+}
+
+#female{
+	margin-right: 15px;
+}
+
+
+#info_register a{
+	text-decoration: none;
+	color: #3a5795;
+}
+
+#info_register a:hover{
+	text-decoration: underline;
+}
+
+.middle-right input[type="submit"]{
+	background-color: #018b23;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 5px;
+	width: 180px;
+	text-align: center;
+	cursor: pointer;
+	margin-bottom: 15px;
+}
+
+.middle-right form{
+	border-bottom: 1px solid grey;
+	margin: 10px 0;
+}
+
+.middle-right p:last-child{
+	color: grey;
+	font-weight: bold;
+	font-size: 15px;
+	margin-bottom: 40px;
+}
+
+.middle-right #create_link{
+	color: #3a5795;
+	text-decoration: none;
+}
+
+/* all */
+::-webkit-input-placeholder { font-size: 15px; font-weight: 600; color: #626C75; }
+::-moz-placeholder { font-size: 15px; font-weight: 600; color: #626C75;} /* firefox 19+ */
+:-ms-input-placeholder { font-size: 15px; font-weight: 600; color: #626C75;} /* ie */
+input:-moz-placeholder { font-size: 15px; font-weight: 600; color: #626C75;}
+/*---end---*/
+
+
+
+/*---Footer----*/
+.content-footer{
+	margin-top: 10px;
+}
+
+.content-footer a{
+	text-decoration: none;
+	color: #3a5795;
+}
+
+.content-footer ul{
+	list-style: none;
+	margin-bottom: 10px;
+}
+
+.content-footer ul:first-child{
+	border-bottom: 1px solid grey;
+	margin-bottom: 5px;
+	padding-bottom: 5px;
+}
+
+.content-footer li{
+	display: inline-block;
+	font-size: 13px;
+	margin-right: 7px;
+}
+
+.group-footer a{
+	font-size: 13px;
+}
+
+.group-footer{
+	float: left;
+	margin-right: 20px;
+}
+
+#copyright{
+	clear: both;
+}
+
+.content-footer p{
+	margin: 16px 0;
+	font-size: 13px;
+	color: grey;
+
+}
+
+
+/*---end---*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
